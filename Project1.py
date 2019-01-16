@@ -5,13 +5,13 @@
 def lex(n):
     # r equals 2(T&F) to the power of statement count
     r=2**n
-    # first line
+    # divider line
     line = "+---"*n+"+"
     # Vertical print out
     # For every increment in r, do this
     for i in range(r):
         a="|"
-        # Print first line
+        # Print divider line
         print(line)
         # Horizontal print out
         # For every increment in n, do this
