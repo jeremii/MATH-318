@@ -1,5 +1,4 @@
-
-
+#Project 1
 
 #Defines the function, lex
 # takes in number of declarative statements.
