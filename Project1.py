@@ -1,12 +1,9 @@
+
+
+
 #Defines the function, lex
 # takes in number of declarative statements.
 # and ouputs a truth table.
-
-# Get user input on how many variables - What is N?
-number = input("Enter a number: ")
-# Convert string to integer
-number, type(int)
-
 def lex(n):
     # n = count of statements
     # r = all possible combinations of T&Fn power
@@ -35,5 +32,12 @@ def lex(n):
         # PRINT a for every increment in r
         print(a)
     print(line)
-# Get user input and put it into function
-lex(number)
+
+while( True ):
+    # Get user input on how many variables - What is N?
+    number = input("Enter the number of declarative statements: ")
+    # Convert string to integer
+    number, type(int)
+    # Get user input and put it into function
+    lex(number)
+
