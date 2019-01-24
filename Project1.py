@@ -1,5 +1,5 @@
 #Project 1
-
+# Group members: Michael Stoffel <mstoffe2@wvup.edu> and Jeremi Swann <jswann1@wvup.edu>
 #Defines the function, lex
 # takes in number of declarative statements.
 # and ouputs a truth table.
@@ -39,4 +39,3 @@ while( True ):
     number, type(int)
     # Get user input and put it into function
     lex(number)
-
