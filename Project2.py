@@ -24,5 +24,3 @@ def testIff():
         for q in (True, False):
             print( str(p) + " \t "+ str(q) + " \t " + str(iff(p, q)))
 
-testImplies()
-testIff()
