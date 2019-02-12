@@ -14,6 +14,6 @@ def run():
             line += str(not p) + " \t " + str(not q) + " \t "
             line += str(nPoQ) + " \t " 
             line += str(Project2.iff(nPaQ, nPoQ))
-            print line
+            print(line)
             line = ""
 run()
