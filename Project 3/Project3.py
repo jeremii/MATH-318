@@ -1,3 +1,5 @@
+# Michael Stoffel <mstoffe2@wvup.edu> and Jeremi Swann <jswann1@wvup.edu>
+
 import Project2
 
 def run(): 

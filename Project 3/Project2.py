@@ -1,3 +1,5 @@
+# Michael Stoffel <mstoffe2@wvup.edu> and Jeremi Swann <jswann1@wvup.edu>
+
 def implies( p, q ):
     if p:
         return q
