@@ -11,7 +11,17 @@ def irand(n,m): #Generate an array of length n made up of random integers betwee
 
 A=irand(100, 200); B=irand(100,200) # Generate A and B with 100 elements each
 
+# Intersection of A and B
+
+print("Intersection of A and B")
+def intersection(A, B):
+    intAB = [value for value in A if value in B]
+    return intAB
+print(intersection(A, B))
+
 # Sort set A into ascending order
+print("List A sorted into ascending order")
 print(sorted(A))
 # Sort set B into ascending order
+print("List B sorted into ascending order")
 print(sorted(B))
