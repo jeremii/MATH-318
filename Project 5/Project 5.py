@@ -11,4 +11,7 @@ def irand(n,m): #Generate an array of length n made up of random integers betwee
 
 A=irand(100, 200); B=irand(100,200) # Generate A and B with 100 elements each
 
-print(A)
+# Sort set A into ascending order
+print(sorted(A))
+# Sort set B into ascending order
+print(sorted(B))
