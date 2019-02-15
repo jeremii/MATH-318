@@ -73,7 +73,7 @@ print("A-B in ascending order")
 def diff(A, B):
     # Set variable for difference of A and B to list A - list B and then sort them into ascending order
     #Find the difference between list A and list B
-    diffAB = [i for i in A + B if i not in A or i not in B]
-    return sorted(diffAB)
+    listDiff = [i for i in A + B if i not in B]
+    return sorted(listDiff)
 
 print(diff(A, B))
