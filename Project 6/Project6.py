@@ -18,4 +18,4 @@ def insertionSort(arr):
 array = insertionSort(array)
 
 for i in range(len(array)):
-    print array[i]
+    print(array[i])
